@@ -26,6 +26,7 @@ Link
 
 - **`src/`**: Contains all source code.
   - **`components/`**: Contains React components.
+  - **`config/`**: Contains assets and images.
   - **`hooks/`**: Contains custom hooks.
   - **`pages/`**: Contains page components.
   - **`styles/`**: Contains CSS files for styling.
