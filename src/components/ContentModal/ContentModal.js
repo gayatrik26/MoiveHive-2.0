@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import Modal from "@mui/material/Modal";
-import Backdrop from "@mui/material/Backdrop";
 import Fade from "@mui/material/Fade";
 import axios from "axios";
 import {img_500, unavailable, unavailableLandscape} from "../../config/config";
@@ -10,11 +9,6 @@ import { Button } from "@mui/material";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import Carousel from "../Carousel/Carousel";
 
-
-// Create a custom Backdrop component
-const CustomBackdrop = styled(Backdrop)(({ theme }) => ({
-  backgroundColor: 'rgba(255, 255, 255, 0)', // Lighter color with transparency
-}));
 
 const StyledModal = styled(Modal)(({ theme }) => ({
   display: 'flex',
@@ -89,14 +83,6 @@ export default function TransitionsModal({ children, media_type, id }) {
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        slots={{
-          backdrop: CustomBackdrop,  // Use the custom Backdrop component
-        }}
-        slotProps={{
-          backdrop: {
-            timeout: 500,
-          },
-        }}
       >
         <Fade in={open}>
           {content && (
