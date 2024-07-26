@@ -16,7 +16,6 @@
 - **Material-UI (MUI)**: For UI components and styling.
 - **Axios**: For making API requests.
 - **The Movie Database (TMDb) API**: For fetching movie and TV series data.
-- **React.lazy**: For lazy loading components to improve performance.
 
 ## Live Link
 
