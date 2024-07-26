@@ -25,7 +25,7 @@ const StyledModal = styled(Modal)(({ theme }) => ({
 const StyledPaper = styled('div')(({ theme }) => ({
   width: '90%',
   height: '80%',
-  backgroundColor: '#39445a',
+  backgroundColor: '#222831',
   border: '1px solid #282c34',
   borderRadius: 10,
   color: 'white',

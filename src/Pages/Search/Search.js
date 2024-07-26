@@ -7,18 +7,47 @@ import TextField from '@mui/material/TextField';
 import SearchIcon from '@mui/icons-material/Search';
 
 const Search = () => {
-
   const [type, setType] = useState();
   const [searchText, setSearchText] = useState("");
   const [page, setPage] = useState(1);
   const [content, setContent] = useState([]);
   const [numOfPages, setNumOfPages] = useState();
 
-  const darkTheme = createTheme({
+  const Theme = createTheme({
     palette: {
-      type: "dark",
+      mode: "dark",
       primary: {
         main: "#fff",
+      },
+      text: {
+        primary: "#fff",
+      },
+    },
+    components: {
+      MuiTab: {
+        styleOverrides: {
+          root: {
+            color: "#fff",
+          },
+        },
+      },
+      MuiTextField: {
+        styleOverrides: {
+          root: {
+            '& .MuiInputBase-root': {
+              color: '#fff',
+            },
+            '& .MuiInputLabel-root': {
+              color: '#fff',
+            },
+            '& .MuiFilledInput-underline:before': {
+              borderBottomColor: '#fff',
+            },
+            '& .MuiFilledInput-underline:after': {
+              borderBottomColor: '#fff',
+            },
+          },
+        },
       },
     },
   });
@@ -30,7 +59,6 @@ const Search = () => {
       );
       setContent(data.results);
       setNumOfPages(data.total_pages);
-      // console.log(data);
     } catch (error) {
       console.error(error);
     }
@@ -44,7 +72,7 @@ const Search = () => {
 
   return (
     <div>
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={Theme}>
         <div className='search' style={{ display: "flex", margin: "15px 0" }}>
           <TextField
             style={{ flex: 1 }}
