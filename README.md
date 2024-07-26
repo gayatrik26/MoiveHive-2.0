@@ -36,3 +36,18 @@ Link
 - **Explore Trending Movies**: Navigate to the "Trending" page to see the latest popular movies.
 - **Browse Movies and TV Series**: Use the "Movies" and "Series" pages to explore content by genre.
 - **View Details**: Click on movie or TV series titles to view more information.
+
+## Screenshots
+
+![Screenshot 2024-07-26 201138](https://github.com/user-attachments/assets/63f3dfad-b652-4a56-9b77-a4b650152d43)
+
+![Screenshot 2024-07-26 201209](https://github.com/user-attachments/assets/b70f74c6-8c1e-412e-8759-5186ba506f85)
+
+![Screenshot 2024-07-26 201253](https://github.com/user-attachments/assets/c69d2ad8-4979-4ce3-b453-322bfe430404)
+
+![Screenshot 2024-07-26 201349](https://github.com/user-attachments/assets/8d7eeb2a-5366-475f-8f59-f0a5b8b496d5)
+
+![Screenshot 2024-07-26 201410](https://github.com/user-attachments/assets/90da0ab1-2b12-4fd7-bb9e-685c866e1e61)
+
+![Screenshot 2024-07-26 201429](https://github.com/user-attachments/assets/850cd144-8b5b-4cd8-93b5-56cc63383aca)
+
