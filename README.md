@@ -19,7 +19,7 @@
 
 ## Live Link
 
-Link
+[Link](https://moviehive2.netlify.app/)
 
 ## Folder Structure
 
