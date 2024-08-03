@@ -19,7 +19,7 @@
 
 ## Live Link
 
-[Link](https://moviehive2.netlify.app/)
+[Link 1](https://moviehive2.netlify.app/)  [Link 2](https://moviehive.vercel.app/)
 
 ## Folder Structure
 
