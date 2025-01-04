@@ -37,6 +37,8 @@
 - **Browse Movies and TV Series**: Use the "Movies" and "Series" pages to explore content by genre.
 - **View Details**: Click on movie or TV series titles to view more information.
 
+// https://www.youtube.com/watch?v=vxUfx4aM5d8
+
 ## Screenshots
 
 ![Screenshot 2024-07-26 201138](https://github.com/user-attachments/assets/63f3dfad-b652-4a56-9b77-a4b650152d43)
